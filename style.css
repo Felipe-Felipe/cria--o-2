@@ -1,0 +1,69 @@
+.imagemhome
+{
+    width: 20em;
+    height: 20em;
+}
+.imagemhome2
+{
+    width: 20em;
+    height: 20em;
+}
+.produto1
+{
+    width: 20em;
+    height: 20em;
+}
+.produto2
+{
+    width: 20em;
+    height: 20em;
+}
+.produto3
+{
+    width: 20em;
+    height: 20em;
+}
+.produto4
+{
+    width: 20em;
+    height: 20em;
+}
+.produto5
+{
+    width: 20em;
+    height: 20em;
+}
+
+.infos_contato
+{
+    width: fit-content;
+    padding: 10px;
+}
+
+.mensagem > textarea
+{
+    width: 80%;
+    height: 200px;
+}
+.instagram
+{
+    width: 20em;
+    height: 20em;
+}
+.Frio 
+{
+    color: rgb(243, 6, 6);
+}
+.cont
+{
+    color: rgb(243, 6, 6);
+}
+.prod
+{
+    color: rgb(243, 6, 6);
+}
+.sobre
+{
+    color: rgb(243, 6, 6);
+}
+    
