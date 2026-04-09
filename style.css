@@ -66,4 +66,36 @@
 {
     color: rgb(243, 6, 6);
 }
-    
+
+:root {
+    --cor-primaria: blue;
+    --cor-secundaria: yellow;
+}
+
+.imagemhome {
+    border: 5px solid var(--cor-primaria);
+}
+.imagemhome2 {
+    border: 5px solid var(--cor-primaria);
+}   
+.homecolor1 {
+    color: var(--cor-primaria);
+}
+.homecolor2 {
+    color: var(--cor-primaria);
+}
+.sobrecolor {
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+}
+
+.navegacao a
+{
+    text-decoration: none;
+}
+.navegacao a button
+{
+    padding: 5px 15px;
+    margin: 0 0 50px 0;
+}
+
