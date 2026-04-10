@@ -66,3 +66,9 @@
 {
     margin-top: 30px;
 }
+.imgmapa img
+{
+    width: 70%;
+    height: 70%;
+    border-radius: 30px;
+}
