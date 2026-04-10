@@ -1,37 +1,10 @@
-.imagemhome
+.produto
 {
     width: 20em;
     height: 20em;
-}
-.imagemhome2
-{
-    width: 20em;
-    height: 20em;
-}
-.produto1
-{
-    width: 20em;
-    height: 20em;
-}
-.produto2
-{
-    width: 20em;
-    height: 20em;
-}
-.produto3
-{
-    width: 20em;
-    height: 20em;
-}
-.produto4
-{
-    width: 20em;
-    height: 20em;
-}
-.produto5
-{
-    width: 20em;
-    height: 20em;
+    border-radius: 30px;
+    border: 5px solid var(--cor-secundaria);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .infos_contato
@@ -45,48 +18,27 @@
     width: 80%;
     height: 200px;
 }
-.instagram
-{
+:root {
+    --cor-primaria: white;
+    --cor-secundaria: blue;
+}
+
+ .imagemhome {
+    border: 5px solid var(--cor-secundaria);
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     width: 20em;
     height: 20em;
-}
-.Frio 
-{
-    color: rgb(243, 6, 6);
-}
-.cont
-{
-    color: rgb(243, 6, 6);
-}
-.prod
-{
-    color: rgb(243, 6, 6);
-}
-.sobre
-{
-    color: rgb(243, 6, 6);
-}
-
-:root {
-    --cor-primaria: blue;
-    --cor-secundaria: yellow;
-}
-
-.imagemhome {
-    border: 5px solid var(--cor-primaria);
-}
-.imagemhome2 {
-    border: 5px solid var(--cor-primaria);
-}   
-.homecolor1 {
-    color: var(--cor-primaria);
-}
-.homecolor2 {
-    color: var(--cor-primaria);
 }
 .sobrecolor {
     color: var(--cor-primaria);
     background-color: var(--cor-secundaria);
+    justify-content: center;
+}
+.sobrecolor p
+{
+    width: 100%;
+    text-align: center;
 }
 
 .navegacao a
@@ -98,4 +50,19 @@
     padding: 5px 15px;
     margin: 0 0 50px 0;
 }
-
+.body
+{
+    background-color: rgb(0, 185, 226);
+    color: black;
+}
+.instagram
+{
+    border: 5px solid var(--cor-secundaria);
+    border-radius: 92px;
+    width: 20em;
+    height: 20em;
+}
+.imgmapa
+{
+    margin-top: 30px;
+}
